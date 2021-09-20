@@ -1,0 +1,194 @@
+:root {
+    --grey_color: #1E3C47;
+    --white_color: #f2f2f2;
+    --blue_color: rgb(105, 145, 170)    ;
+    --light_grey_color: #B8D0EC;
+    --grey_color_opacity: rgb(51,51,51,0.8);
+    --blue_color_opacity: rgb(105, 145, 170, 0.8);
+}
+
+.header-info {
+    background-color: var(--grey_color);
+    color: var(--white_color);
+}
+
+.grey-button {
+    background-color: var(--grey_color);
+    color: var(--white_color);
+    border: 1px solid var(--blue_color);
+    border-radius: 0;
+    padding: 7px 15px;
+    transition: 0.2s;
+}
+
+.grey-button:hover{
+    background-color: var(--blue_color);
+}
+
+.grey-button:focus{
+    outline: none;
+}
+
+.blue-button {
+    background-color: var(--blue_color);
+    color: var(--white_color);
+    border: none;
+    border-radius: 0;
+    padding: 7px 15px;
+    transition: 0.2s;
+}
+
+.blue-button:focus{
+    outline: none;
+}
+
+.contact-info-modal .modal-dialog .modal-content{
+    background-color: var(--grey_color) !important;
+    color: var(--white_color);
+    border-radius: 0;
+}
+
+.contact-info-modal .modal-header{
+    color: var(--white_color);
+    border: none;
+}
+
+.contact-info-modal button{
+    color: var(--white_color);
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus {
+  padding: 12px 25px;
+  color: var(--white_color);
+  font-size: 18px;
+  transition: 0.2s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: var(--light_grey_color);
+  color: var(--white_color);
+}
+.navbar-light .navbar-nav .active .nav-link {
+  background-color: var(--light_grey_color);
+  color: var(--white_color);
+}
+.navbar {
+  padding: 0;
+  background: var(--blue_color);
+  z-index: 999;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+
+.carousel-text{
+    border-radius: 0;
+    background-color: var(--grey_color_opacity);
+    color: var(--white_color);
+}
+
+#footer-top{
+    background-color: var(--grey_color);
+    color: var(--white_color);
+}
+
+#footer-bottom{
+    background-color: var(--light_grey_color);
+    color: var(--white_color);
+}
+
+#footer-bottom a:link,#footer-bottom a:visited, #footer-bottom a:hover, #footer-bottom a:active {
+    color: var(--white_color);
+    text-decoration: none;
+}
+
+
+main{
+    background-color: var(--white_color);
+    min-height: 60vh;
+}
+
+.carousel-item{
+    min-height: 50vh;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    min-height: 50vh;
+    min-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.text-l-grey{
+    color: var(--light_grey_color)
+}
+
+.text-blue{
+    color: var(--blue_color)
+}
+
+.text-grey{
+    color: var(--grey_color);
+}
+
+.text-white{
+    color: var(--white_color);
+}
+
+.parallax{
+    background-image: url("../images/home_bg.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-ponuda{
+    background-image: url("../images/programi/cover.gif")
+}
+
+.parallax-treneri{
+    background-image: url("../images/treneri/grupna.jpg")
+}
+
+.parallax-treneri>div{
+    background-color: var(--grey_color_opacity);
+}
+
+.parallax-ponuda>div{
+    background-color: var(--grey_color_opacity);
+}
+
+.container-blue{
+    background-color: var(--blue_color_opacity);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.map{
+    width: 100%;
+    height: 50vh;
+}
+
+.list-group-horizontal .active{
+    background-color: var(--blue_color);
+    border-color: var(--blue_color);
+}
+
+.programi{
+    border: none;
+    background-color: var(--white_color);
+}
+
+.icon-gery{
+    background-color: var(--grey_color);
+    color: var(--blue_color);
+}
+
+
+
+
