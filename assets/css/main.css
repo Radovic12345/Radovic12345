@@ -1,10 +1,10 @@
 :root {
-    --grey_color: rgb(51, 51, 51);
+    --grey_color: #1E3C47;
     --white_color: #f2f2f2;
-    --blue_color: rgb(0, 213, 255);
-    --light_grey_color: #627B80;
-    --grey_color_opacity: rgb(51,51,51,0.5);
-    --blue_color_opacity: rgb(44, 195, 224,0.8);
+    --blue_color: rgb(105, 145, 170)    ;
+    --light_grey_color: #B8D0EC;
+    --grey_color_opacity: rgb(51,51,51,0.8);
+    --blue_color_opacity: rgb(105, 145, 170, 0.8);
 }
 
 .header-info {
@@ -139,6 +139,8 @@ main{
 
 .parallax{
     background-image: url("../images/home_bg.jpg");
+
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,12 +151,20 @@ main{
     background-image: url("../images/programi/cover.gif")
 }
 
+.parallax-treneri{
+    background-image: url("../images/treneri/grupna.jpg")
+}
+
+.parallax-treneri>div{
+    background-color: var(--grey_color_opacity);
+}
+
 .parallax-ponuda>div{
     background-color: var(--grey_color_opacity);
 }
 
 .container-blue{
-    background-color: var(--blue_color);
+    background-color: var(--blue_color_opacity);
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -177,12 +187,6 @@ main{
 .icon-gery{
     background-color: var(--grey_color);
     color: var(--blue_color);
-}
-
-@media screen and (max-width:1009px){
-    .sr-kontakt{
-        margin-left: 60px;
-    }
 }
 
 
